@@ -8,7 +8,7 @@ Summary:	Cython interface to HIDAPI library
 Summary(pl.UTF-8):	Cythonowy interfejs do biblioteki HIDAPI
 Name:		python-hidapi
 Version:	0.7.99.post21
-Release:	1
+Release:	2
 License:	GPL v3 or BSD or HIDAPI
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/h/hidapi/hidapi-%{version}.tar.gz
