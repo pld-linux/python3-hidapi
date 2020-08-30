@@ -7,14 +7,16 @@
 Summary:	Cython interface to HIDAPI library
 Summary(pl.UTF-8):	Cythonowy interfejs do biblioteki HIDAPI
 Name:		python-hidapi
-Version:	0.7.99.post21
-Release:	3
+# 0.9.0.post3 requires hidapi > 0.9.0
+Version:	0.9.0.post2
+Release:	1
 License:	GPL v3 or BSD or HIDAPI
 Group:		Libraries/Python
+#Source0Download: https://pypi.org/simple/hidapi/
 Source0:	https://files.pythonhosted.org/packages/source/h/hidapi/hidapi-%{version}.tar.gz
-# Source0-md5:	c343ac9bf1a204f89e6f94e9c569faa0
+# Source0-md5:	73797981acc762bd39f6ceb5a0b0b0b7
 URL:		https://pypi.org/project/hidapi/
-BuildRequires:	hidapi-devel
+BuildRequires:	hidapi-devel >= 0.9.0
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
@@ -27,6 +29,7 @@ BuildRequires:	python3-Cython
 BuildRequires:	python3-devel >= 1:3.2
 BuildRequires:	python3-setuptools >= 19.0
 %endif
+Requires:	hidapi >= 0.9.0
 Requires:	python-libs >= 1:2.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -40,6 +43,7 @@ Cythonowy interfejs do biblioteki HIDAPI.
 Summary:	Cython interface to HIDAPI library
 Summary(pl.UTF-8):	Cythonowy interfejs do biblioteki HIDAPI
 Group:		Libraries/Python
+Requires:	hidapi >= 0.9.0
 Requires:	python3-libs >= 1:3.2
 
 %description -n python3-hidapi
