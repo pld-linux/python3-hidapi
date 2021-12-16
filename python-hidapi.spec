@@ -22,12 +22,12 @@ BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
 BuildRequires:	python-Cython
 BuildRequires:	python-devel >= 1:2.6
-BuildRequires:	python-setuptools >= 19.0
+BuildRequires:	python-setuptools >= 1:19.0
 %endif
 %if %{with python3}
 BuildRequires:	python3-Cython
 BuildRequires:	python3-devel >= 1:3.2
-BuildRequires:	python3-setuptools >= 19.0
+BuildRequires:	python3-setuptools >= 1:19.0
 %endif
 Requires:	hidapi >= 0.9.0
 Requires:	python-libs >= 1:2.6
