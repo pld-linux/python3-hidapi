@@ -9,7 +9,7 @@ Summary(pl.UTF-8):	Cythonowy interfejs do biblioteki HIDAPI
 Name:		python-hidapi
 # 0.9.0.post3 requires hidapi > 0.9.0
 Version:	0.9.0.post2
-Release:	4
+Release:	5
 License:	GPL v3 or BSD or HIDAPI
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/hidapi/
