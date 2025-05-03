@@ -7,13 +7,13 @@
 Summary:	Cython interface to HIDAPI library
 Summary(pl.UTF-8):	Cythonowy interfejs do biblioteki HIDAPI
 Name:		python3-hidapi
-Version:	0.14.0
-Release:	3
+Version:	0.14.0.post4
+Release:	1
 License:	GPL v3 or BSD or HIDAPI
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/hidapi/
 Source0:	https://files.pythonhosted.org/packages/source/h/hidapi/hidapi-%{version}.tar.gz
-# Source0-md5:	261310752df90b76fa4e22f3f60ad733
+# Source0-md5:	e40ef74132829a8e51bfa9005f8ead04
 URL:		https://pypi.org/project/hidapi/
 BuildRequires:	hidapi-devel >= 0.14.0
 BuildRequires:	libusb-devel >= 1.0
